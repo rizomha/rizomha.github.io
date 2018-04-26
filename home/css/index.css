@@ -1,0 +1,186 @@
+p {
+    margin: 0 0 10px;
+    color: #fff;
+}
+
+body{
+  background: url("../imagenes/sss.jpg");
+  margin: 0 auto; 
+  text-align: center;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+.penta a{color:white;font-family: 'Indie Flower', cursive; font-size:20px}
+.nav-pills>li.home>a{
+  background-color:white;
+  color: black;
+  }
+
+.nav-pills>li.galeria>a{
+  background-color: white;
+  color: black;
+  }
+.nav-pills>li.personajes>a{
+  background-color: white;
+  color: black;
+  }  
+.nav-pills>li.tienda>a{
+  background-color: white;
+  color: black;
+  }
+.nav-pills>li.monita>a{
+  background-color: #cef0ef;
+  color: black;
+  }  
+
+.nav-pills>li.home>a:hover{
+    background-color:#cef0ef;
+  }
+.nav-pills>li.personajes>a:hover{
+    background-color:#cef0ef;
+  }  
+.nav-pills>li.galeria>a:hover{
+  background-color: #cef0ef;
+  }
+.nav-pills>li.tienda>a:hover{
+  background-color: #cef0ef;
+  }
+
+.nav-pills>li.active>a:hover{
+  background-color: #cef0ef;  
+  
+  }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+      width: 100%;
+      margin: auto;
+  }
+#particles-js{
+  height: 70px;
+}
+#particles1-js{
+  height: 70px;
+}
+#particles2-js{
+  height: 70px;
+}
+
+#mona:hover{
+  -webkit-transform: translate(0px, -5px); 
+
+}
+
+
+
+.icon-button {
+  background-color: white;
+  border-radius: 8rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.0rem;
+  height:8rem;
+  line-height: 3.6rem;
+  margin: 0 7px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 8rem;
+}
+
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+  width: 0;
+}
+.icon-button:hover span {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 8rem;
+  margin: -4rem;
+}
+.tw span {
+  background: url(../imagenes/admin.png);
+  background-color: #cef0ef;
+}
+.twitter span {
+   background: url(../imagenes/twiter.png);
+    background-color: #4099ff;
+}
+.facebook span {
+    background: url(../imagenes/facebook.png);
+    background-color: #3B5998;
+}
+.google-plus span {
+    background: url(../imagenes/GooglePlus.png);
+    background-color: #db5a3c;
+}
+
+
+.icon-button i {
+  background: none;
+  color: white;
+  height: 8rem;
+  left: 0;
+  line-height: 8rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+  width: 8rem;
+  z-index: 10;
+}
+
+.icon-button .icon-twitter {
+  
+    color: #4099ff;
+}
+.icon-button .icon-facebook {
+    color: #3B5998;
+}
+.icon-button .icon-google-plus {
+    color: #db5a3c;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+    color: white;
+}
+.icon-button .icon-tw {
+  color: #cef0ef;
+}
+
+.icon-button:hover .icon-tw,{
+  color: #cef0ef;
+}
+
+.contenedor{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+
+}
+.contenedor video{
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+}
